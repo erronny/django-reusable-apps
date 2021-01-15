@@ -1,1 +1,7 @@
+include AUTHORS LICENSE *
+include README *
+recursive-include posts *
 
+recursive-include doc *
+recursive-include migrations *
+recursive-exclude __pycache__ *
